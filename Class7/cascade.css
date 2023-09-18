@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+
+div {
+    border: 2px black solid !important;
+    color: magenta;
+}
+
+#first {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+p {
+    color: gray;
+}
+
+h1 {
+    color: black;
+}
