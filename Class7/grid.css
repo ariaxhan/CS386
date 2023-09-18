@@ -1,0 +1,37 @@
+/*overall grid setup */
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 150px;
+    grid-template-rows: 100px 200px 100px;
+    grid-template-areas:
+        "header header header header"
+        "main main main sidebar"
+        "footer footer footer footer";
+    column-gap: 5px;
+    row-gap: 20px;
+}
+
+#item-1 {
+    grid-area: header;
+    background: red;
+    border: 2px solid black;
+}
+
+#item-2 {
+    grid-area: main;
+    background: gray;
+    border: 2px solid black;
+}
+
+#item-3 {
+    grid-area: sidebar;
+    background: yellow;
+    border: 2px solid black;
+}
+
+#item-4 {
+    grid-area: footer;
+    background: green;
+    border: 2px solid black;
+}
