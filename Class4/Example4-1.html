@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Picture Element</title>
+		<meta charset = "utf-8">
+		<meta name = "description" content = "Picture Element"/>
+	</head>
+	<body>
+		<h1>
+			Picture Element
+		</h1>
+		<p>
+			Resize browser window to demonstrate image switching depending on width of browser window.
+		</p>
+		<hr/>
+		<picture>
+			<source media="(min-width: 1300px)" srcset="cat-1280.jpg">
+			<source media="(min-width: 800px)" srcset="cat-800.jpg">
+			<source media="(min-width: 600px)" srcset="cat-600.jpg">
+			<img src="cat-400.jpg">
+		</picture>
+	</body>
+</html>

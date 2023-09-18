@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ICP 3</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>In-Class Programming 3</h1>
+		<hr/>
+		<form action="icp3.html" method="get">
+			<label for="name"> Name: </label>
+			<input type="text" name="name" placeholder="Enter full name" required>
+			<br/><br/>
+			<label for="date"> Date: </label>
+			<input type="date" name="date" required>
+			<br/><br/>
+			<label for="state">Select state: </label>
+			<select id="state" name="state" size="4" required>
+				<option value="AL">Alabama</option>
+				<option value="AR">Arkansas</option>
+				<option value="CA">California</option>
+				<option value="CO">Colorado</option>
+				<option value="DE">Delaware</option>
+				<option value="MI">Michigan</option>
+				<option value="VT">Vermont</option>
+			</select>
+			<br/><br/>
+			<label for="city">Select city: </label>
+			<select id="city" name="city" required>
+				<option value="">Select a city ... </option>
+				<option value="MO">Montgomery (AL)</option>
+				<option value="LR">Little Rock (AR)</option>
+				<option value="SA">Sacramento (CA)</option>
+				<option value="DE">Denver (CO)</option>
+				<option value="DO">Dover (DE)</option>
+				<option value="LA">Lansing (MI)</option>
+				<option value="MT">Montpellier (VT)</option>
+			</select>			
+
+			<br/>
+
+			<hr/>
+			<input type="reset" value="Reset">
+			<input type="submit" value="Submit">
+		</form>	
+	</body>
+</html>
