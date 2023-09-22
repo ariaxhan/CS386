@@ -1,0 +1,58 @@
+/*overall grid setup */
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 1fr 20%;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-areas:
+    "header header header"
+    "nav article ads"
+    "nav footer footer";
+  column-gap: 15px;
+  row-gap: 15px;
+  margin: 0;
+  height: 90vh;
+}
+
+.center {
+  text-align: center;
+}
+
+.margin {
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+
+/* setup each type */
+
+#header {
+  grid-area: header;
+  background: rgb(255, 181, 181);
+}
+
+#footer {
+  grid-area: footer;
+  background: rgb(255, 181, 181);
+}
+
+#aside {
+  grid-area: ads;
+  background: rgb(255, 181, 181);
+}
+
+#nav {
+  grid-area: nav;
+  background: rgb(255, 181, 181);
+}
+
+#article {
+  grid-area: article;
+  background: rgb(255, 181, 181);
+}
+
+#iFrameTag {
+  width: 100%;
+  height: 100%;
+  border: 20px;
+}

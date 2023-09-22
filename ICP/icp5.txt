@@ -1,0 +1,16 @@
+
+// declare variables and assign floating point numbers
+let op1 = 64.3;
+let op2 = 44.3;
+
+// perform each of the operations (+, -, /, *) and store in variables
+let sum = op1 + op2;
+let diff = op1 - op2;
+let quotient = op1/op2;
+let product = op1 * op2;
+
+// use template strings to log the results in the console
+console.log(`The sum of ${op1} and ${op2} = ${sum}
+The difference of ${op1} and ${op2} = ${diff}
+The quotient of ${op1} and ${op2} = ${quotient}
+The product of ${op1} and ${op2} = ${product}`);

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="HW2_register.css" />
+  </head>
+  <body>
+    <div id="divMain" class="container">
+      <div id="header" name="header" class="">
+        <h1 class="">REGISTER</h1>
+      </div>
+      <div id="article" class="item">
+        <p>Please fill in this form to create an account.</p>
+        <hr />
+      </div>
+
+      <form action="#registered" method="get">
+        <label for="email" class="formlabels"> Email </label>
+        <br />
+        <input
+          id="email"
+          type="text"
+          class="form"
+          name="email"
+          placeholder="Enter Email"
+          required
+        />
+        <br /><br />
+
+        <label for="password" class="formlabels"> Password </label>
+        <br />
+        <input
+          id="password"
+          type="text"
+          class="form"
+          name="password"
+          placeholder="Enter Password"
+          required
+        />
+        <br /><br />
+
+        <label for="repeat" class="formlabels"> Repeat Password </label>
+        <br />
+        <input
+          id="repeat"
+          type="text"
+          class="form"
+          name="repeat"
+          placeholder="Enter Password"
+          required
+        />
+        <br />
+
+        <hr />
+        <p>By creating an account you agree to our
+            <a href="#terms" class="link">Terms & Privacy</a>
+        </p>
+        <input type="submit" class="register" value="Register" />
+
+        <p>Already have an account? 
+            <a href="#signin" class="link">Sign in</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
