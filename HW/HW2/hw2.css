@@ -24,7 +24,9 @@
   margin-top: 35px;
 }
 
-/* setup each type */
+#divMain {
+  height: 95vh;
+}
 
 #header {
   grid-area: header;

@@ -1,0 +1,21 @@
+fieldset {
+  background-color: rgba(255, 226, 242, 0.725);
+  padding: 25px;
+  border: solid rgb(252, 88, 176) 2px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+}
+
+.asterisk {
+  color: red;
+}
+
+.validation-message {
+  border: 1px solid black;
+  padding: 2px;
+  display: inline-block;
+  min-width: 100px;
+}
