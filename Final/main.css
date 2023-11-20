@@ -1,0 +1,79 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #39c488;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: block; 
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#gen {
+  width: 150px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  background-color: #39c488; 
+  color: #fafafa;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+#gen:hover {
+  background-color: #027644; /* Change background color on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Add more custom styling as needed */

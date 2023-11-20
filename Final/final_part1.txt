@@ -1,0 +1,27 @@
+**Book-Inspired Playlist Generator - Project Overview**
+
+For my final project, I am excited to develop a web application that combines the power of the Spotify API and the Books API to create personalized playlists based on books. 
+This innovative platform will cater to book enthusiasts looking to enhance their reading experience with curated soundtracks that complement the themes and moods of their favorite books.
+
+**Key Features:**
+
+1. **Book Selection:** Users will be able to search for books by title, author, or genre using the Books API. 
+The application will provide detailed information about the selected book, including its synopsis and themes.
+
+2. **Playlist Generation:** Leveraging the Spotify API, the app will generate playlists inspired by the selected book. 
+It will analyze the book's themes, emotions, and settings to curate a playlist of songs that align with the literary work's atmosphere.
+
+3. **Music Exploration:** Users can explore the generated playlists, listen to song previews, and add tracks to their Spotify library or playlists directly from the app.
+
+**Technologies and Libraries:**
+
+1. **Front-End:**
+   - **React.js:** This library will be used to build a modern and responsive user interface, allowing users to interact seamlessly with the app.
+   - **Bootstrap:** To enhance the user interface's aesthetics and ensure a visually pleasing design.
+
+2. **Back-End:**
+   - **Node.js with Express:** The server-side application will handle communication with both the Books API and the Spotify API.
+   - **Books API:** To retrieve book details and information.
+   - **Spotify API:** To access music data and playback functionalities.
+
+The primary focus of this project is to offer users a simple and enjoyable experience in discovering new music that complements their reading adventures. It aims to bring together the worlds of literature and music, providing an aesthetically pleasing and harmonious digital environment for book and music enthusiasts alike.
