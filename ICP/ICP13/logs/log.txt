@@ -1,0 +1,24 @@
+Server started on: 2023-11-14T05:54:17.965Z 
+Request received on: 2023-11-14T05:54:22.112Z 
+---- User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0
+---- Hostname: localhost
+---- IP address: ::1
+---- Protocol: http
+Root route accessed on: 2023-11-14T05:54:22.114Z 
+---- User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0
+---- Hostname: localhost
+---- IP address: ::1
+---- Protocol: http
+Request received on: 2023-11-14T05:56:54.694Z 
+---- User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0
+---- Hostname: localhost
+---- IP address: ::1
+---- Protocol: http
+Root route accessed on: 2023-11-14T05:56:54.696Z 
+---- User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0
+---- Hostname: localhost
+---- IP address: ::1
+---- Protocol: http
+SIGINT signal received on: 2023-11-14T20:46:59.995Z 
+Closing http server on: 2023-11-14T20:47:00.005Z 
+Http server closed on: 2023-11-14T20:47:00.005Z 
