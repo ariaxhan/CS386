@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AngularJS CRUD</title>  
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+	</head>
+	<body data-ng-app data-ng-init="persons = [
+			{ name: 'John', phone: '512-455-1276' },
+			{ name: 'Mary', phone: '899-333-3345' },
+			{ name: 'Mike', phone: '511-444-4321' },
+			{ name: 'Bill', phone: '145-788-5678' },
+			{ name: 'Ram', phone: '433-444-8765' },
+			{ name: 'Steve', phone: '218-345-5678' }] ; SortOrder='+name'"><!--Set SortOrder to initial value-->
+		<h1>AngularJS App</h1>
+		<hr />
+        <select data-ng-model="SortOrder">
+            <option value="+name">Name (asc)</option>
+            <option value="-name">Name (desc)</option>
+            <option value="+phone">Phone (asc)</option>
+            <option value="-phone">Phone (desc)</option>
+        </select>
+        <ul data-ng-repeat="person in persons | orderBy:SortOrder">
+            <li>{{person.name}} - {{person.phone}}</li>
+        </ul>
+	</body>  
+</html>
+
+
+
+
+
+

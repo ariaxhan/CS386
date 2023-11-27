@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset='UTF-8'>
+		<title>Angular JS</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+	</head>
+	<body ng-app ><!--Angular Bootstrapping-->
+		<h1>Angular JS Date Filter</h1>
+		<hr />
+		<p>Select date: <input type="datetime-local" ng-model="date_val"/></p><!--Bind datetime input to model date_val-->
+		<select ng-model="format"><!--Bind selected date format to model format-->
+			<option value="medium">Medium Format</option>
+			<option value="short">Short Format</option>
+			<option value="fullDate">fullDate Format</option>
+			<option value="longDate">longDate Format</option>
+			<option value="mediumDate">mediumDate Format</option>
+			<option value="shortDate">shortDate Format</option>
+			<option value="mediumTime">mediumTime Format</option>
+			<option value="shortTime">shortTime Format</option>
+		</select>
+		<p>Formatted date: {{date_val | date:format}}</p><!--Display formatted date using models date_val and format-->
+	</body>
+</html>
+
+
